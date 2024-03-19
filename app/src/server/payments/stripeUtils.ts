@@ -3,6 +3,7 @@ import Stripe from 'stripe';
 const stripe = new Stripe(process.env.STRIPE_KEY!, {
   apiVersion: '2022-11-15',
 });
+//test
 
 // WASP_WEB_CLIENT_URL will be set up by Wasp when deploying to production: https://wasp-lang.dev/docs/deploying
 const DOMAIN = process.env.WASP_WEB_CLIENT_URL || 'http://localhost:3000';
